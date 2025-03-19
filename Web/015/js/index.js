@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||某某某|我们|在一起吧|❤|#rectangle|');
+      S.UI.simulate('|#countdown 3||亲爱的唐阿姨|您好呀！|马上就是您的生日啦！|虽然我们还没见过面|但我早就从洪瑾那里听闻了您有多好|一直早点盼望见到您|郑重地祝您生日快乐|祝您|平安喜乐！|身体健康！|事事顺心！|永远年轻漂亮！||');
     }
 
     S.Drawing.loop(function () {
